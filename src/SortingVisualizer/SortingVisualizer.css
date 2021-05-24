@@ -1,0 +1,41 @@
+.array-container {
+	display: inline-block;
+	background: rgb(92, 255, 133);
+	border: 1px solid white;
+	position: static;
+}
+.array-bar {
+	/*display: inline-block;*/
+	position: relative;
+	background: rgb(92, 255, 133);
+}
+.numbers {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	color: white;
+}
+.nav-bar {
+	position: relative;
+	top: 80vh;
+}
+.boot-background {
+	background-color: #ffffff;
+}
+.boot-color {
+	color: rgb(195, 146, 223);
+}
+.boot-hover:hover {
+	background-color: rgb(92, 222, 255);
+}
+.slider1::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background: rgb(195, 146, 223);
+	cursor: pointer;
+}
+.slider1::-webkit-slider-thumb:active {
+	background-color: rgb(92, 255, 133);
+}
+.slider1::-webkit-slider-thumb:focus {
+	background-color: rgb(92, 255, 133);
+}
